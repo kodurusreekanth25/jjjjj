@@ -19,7 +19,7 @@ public class Main2 {
 		Transaction transaction = session.beginTransaction();
 		Student s1 = new Student();
 		s1.setName("prassu");
-        s1.setAge(345);
+        s1.setAge(375);
         session.persist(s1);
         transaction.commit();
         session.close();
